@@ -68,7 +68,7 @@
             // 
             // btnShowFIO
             // 
-            this.btnShowFIO.Location = new System.Drawing.Point(676, 128);
+            this.btnShowFIO.Location = new System.Drawing.Point(229, 163);
             this.btnShowFIO.Name = "btnShowFIO";
             this.btnShowFIO.Size = new System.Drawing.Size(157, 45);
             this.btnShowFIO.TabIndex = 3;
