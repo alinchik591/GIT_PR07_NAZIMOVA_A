@@ -74,6 +74,7 @@
             this.label3.Size = new System.Drawing.Size(76, 24);
             this.label3.TabIndex = 3;
             this.label3.Text = "Пароль";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // txtPassword
             // 
@@ -100,6 +101,7 @@
             this.button1.TabIndex = 6;
             this.button1.Text = "Авторизоваться";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
@@ -116,7 +118,7 @@
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form1";
             this.Text = "ПР07";
             this.Load += new System.EventHandler(this.Form1_Load);
